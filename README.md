@@ -108,56 +108,101 @@ Model Performance
 The project includes various visualizations:
 
 •	Average crop yield over time
+
 •	Correlation matrix of numerical features
+
 •	Pesticide usage vs. crop yield
+
 •	Mean yield by crop type and pesticide usage
+
 •	Average rainfall vs. crop yield
+
 •	Average temperature vs. crop yield
+
 •	Average yield by temperature range
+
 •	Distribution of crop types
+
 •	Actual vs. predicted yields
+
 💡 Recommendations
+
 Model Improvements
+
 •	Tune Decision Tree hyperparameters
+
 •	Explore ensemble methods
+
 •	Add more polynomial features for environmental factors
 Data Expansion
+
 •	Incorporate post-2013 data
+
 •	Add features like soil type, irrigation, or crop genetics
+
 •	Balance crop and country representation
+
 Policy Implications
+
 •	Optimize pesticide use based on crop-specific benefits
+
 •	Promote heat-tolerant crops in high-temperature regions
+
 •	Support agricultural innovation to sustain yield increases
+
 🚀 Getting Started
+
 Prerequisites
+
 pandas
+
 numpy
+
 matplotlib
+
 seaborn
+
 scipy
+
 scikit-learn
+
 Installation
+
 bash
+
 git clone https://github.com/yourusername/crop-yield-analysis.git
 cd crop-yield-analysis
+
 pip install -r requirements.txt
+
 Usage
+
 python
+
 # Load the trained model
+
 import pickle
+
 with open('models/dtr.pkl', 'rb') as f:
+
     model = pickle.load(f)
 
 # Load the preprocessor
+
 with open('models/preprocessor.pkl', 'rb') as f:
+
     preprocessor = pickle.load(f)
 
 # Make predictions
+
 X_transformed = preprocessor.transform(X_new)
+
 predictions = model.predict(X_transformed)
+
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 🙏 Acknowledgments
 •	Thanks to all contributors who have invested their time in improving this project
 •	Special thanks to the agricultural research community for providing valuable datasets
