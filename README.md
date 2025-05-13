@@ -23,7 +23,16 @@ Key Objectives
 •	Countries: 101 (India most frequent)
 
 •	Crops: 10 (Potatoes most frequent)
-Features
+
+Dataset Features
+
+•	Target variable: hg/ha_yield (hectogram per hectare)
+
+Key Predictors
+
+•	avg_temp (average temperature in °C)
+
+•	average_rain_fall_mm_per_year
 
 •	Area (country)
 
@@ -31,17 +40,14 @@ Features
 
 •	Year
 
-•	hg/ha_yield (hectogram per hectare)
-
-•	average_rain_fall_mm_per_year
-
 •	pesticides_tonnes
 
-•	avg_temp (average temperature in °C)
 
 🔧 Methodology
 
 Data Preprocessing
+
+•	No missing values were recorded
 
 •	Removed duplicates (2,310 rows)
 
