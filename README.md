@@ -16,6 +16,8 @@ Key Objectives
 
 •	Period: 1990-2013
 
+•   Records before Cleaning : 28,242
+
 •	Records: 25,932 (after cleaning)
 
 •	Countries: 101 (India most frequent)
