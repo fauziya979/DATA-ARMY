@@ -2,11 +2,16 @@
 
 📊 Project Overview
 This project offers a comprehensive analysis of global agricultural productivity from 1990 to 2013, leveraging machine learning techniques to predict crop yields and identify key drivers. The analysis covers 101 countries and 10 crop types, providing insights for farmers, policymakers, and agricultural researchers facing challenges from climate change.
+
 Key Objectives
 •	Analyze historical crop yield data and associated environmental/climate features
+
 •	Apply machine learning models to predict future crop yields
+
 •	Identify key factors that significantly influence agricultural productivity
+
 •	Provide actionable insights for optimizing agricultural practices
+
 📋 Dataset
 •	Period: 1990-2013
 •	Records: 25,932 (after cleaning)
